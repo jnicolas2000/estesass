@@ -1,0 +1,50 @@
+body {
+    min-height: 100%;
+
+    .grid-container-likes {
+   
+        padding: 30px;
+        text-align: center;
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+            "navbar"
+            "header"
+            "main"
+            "sidebar"
+            "footer"
+        ;
+
+        .headerlikes {
+            grid-area: header;
+            background-color: antiquewhite;
+            padding: 10px;
+
+            .nav-link {
+                color: black;
+            }
+        }
+    }
+
+    .navbarlikes {
+        grid-area: navbar;
+
+        .nav-link {
+            color: black;
+        }        
+    }
+}
+
+.mainlikes {
+    grid-area: main;
+    width: 100%;
+    margin-right: 600px;
+}
+
+.sidebarlikes {
+    grid-area: sidebar;
+}
+
+.footerlikes {
+    grid-area: footer;
+}

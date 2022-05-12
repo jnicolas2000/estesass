@@ -1,0 +1,56 @@
+body {
+    .grid-container-personalizado > *{
+   
+        padding: 30px;
+        text-align: center;
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+            "navbar"
+            "header"
+            "main"
+            "footer"
+        ;
+
+        .headerlikes {
+            grid-area: header;
+            background-color: antiquewhite;
+            padding: 10px;
+
+            .nav-link {
+                color: black;
+            }
+        }
+    }
+
+    .navbarpersonalizado {
+        grid-area: navbar;
+
+        .nav-link {
+            color: black;
+        }
+    }
+    
+    .sectionpersonalizado {
+        grid-area: section;
+    }
+
+    .mainpersonalizado {
+        grid-area: main;
+        width: 100%;
+        margin-right: 800px;
+    }
+    
+    .sidebarpersonalizado {
+        grid-area: sidebar;
+    }
+    
+    .footerpersonalizado {
+        grid-area: footer;
+    }
+    
+    .sectionpersonalizado {
+        grid-area: section;
+    }
+    
+}

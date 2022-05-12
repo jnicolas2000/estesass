@@ -1,0 +1,17 @@
+$color-primary: black;
+$color-secondary: antiquewhite;
+
+
+footer {
+    background-color: $color-primary
+}
+
+
+@import "designare";
+@import "pruebaindex";
+@import "personalizado";
+@import "perfil";
+@import "nuevo";
+@import "carrito";
+@import "modasos";
+@import "likes";

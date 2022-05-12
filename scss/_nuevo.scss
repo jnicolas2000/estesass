@@ -1,0 +1,67 @@
+body {
+    .grid-container-info > *{
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+            "navbar"
+            "header"
+            "main"
+            "footer"
+        ;
+        padding: 30px;
+        text-align: center;
+
+        .headerinfo {
+            grid-area: header;
+            background-color: antiquewhite;
+            padding: 10px;
+            padding-left: 50%;
+            grid-area: header;
+            background-color: antiquewhite;
+        
+            .nav-link {
+                color: black;
+            }
+        }
+    }
+
+    .navbarpersonalizado {
+        grid-area: navbar;
+
+        .nav-link {
+            color: black;
+        }
+    }
+
+    .maininfo {
+        grid-area: main;
+        width: 100%;
+     
+    }
+
+    .sidebarinfo {
+        grid-area: sidebar;
+
+        .contenedorpremain figure .premainletra {
+            position: absolute;
+            top: 0;
+            width: 100%;
+        
+            background-color: antiquewhite;
+            transition: all 0ms ease-out;
+            opacity: 0;
+        
+            text-align: center;
+          
+        }
+    }
+
+    .footerinfo {
+        grid-area: footer;
+    }
+    
+    .sectioninfo {
+        grid-area: section;
+       width: 100%;
+    }
+}

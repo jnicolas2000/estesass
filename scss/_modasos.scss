@@ -1,0 +1,126 @@
+body {
+    .perfil {
+        /* background-color: #ecf0f1; */
+        width: 100%;
+        background: url(./imagenes/Moda-sostenible-es-moda-circular-gabrielfariasiribarren.com_.jpg);
+        background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+        background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+        color: #000000;
+        font-family: 'Manjari', sans-serif;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+
+        .nav-link {
+            color: black;
+        }        
+    }
+
+    header {
+        #perfil_menuprincipal {
+            padding-left: 50%;
+            background-color: antiquewhite;
+
+            .nav-link {
+                color: black;
+            }
+        }
+    }
+
+    main {
+        .main_moda_sos{
+            display: grid;
+            width: 100%;
+            padding-left: 125px;
+            padding-top: 50px;
+        
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            gap: 50px;
+
+            .contenido_moda{
+                height: 510px;
+                width: 25%;
+                box-shadow: 0 0 7px #111 ;
+            
+                display: grid;
+            
+                .contenido_moda{
+                    height: 510px;
+                    width: 25%;
+                    box-shadow: 0 0 7px #111 ;
+                    display: grid;
+
+                    .contenido_moda .card{
+                        height: 200px;
+                        width: 100%;
+                        margin-bottom: 170px;
+
+                        .imagen1_moda img{
+                            height: 330px;
+                            width: 330px;
+                        }
+                        .contenido_moda .imagen1_moda{
+                             background-color: #111;
+                        }
+                        .contenido_moda .imagen2_moda{
+                            background-color: #6A0C0B;
+                        }
+                        .contenido_moda .imagen3_moda{
+                            background-color:#B11313;
+                        }
+                        .contenido_moda .imagen2_moda img{
+                            height: 330px;
+                            width: 230px;
+                        }
+                        .contenido_moda .imagen3_moda img{
+                            height: 330px;
+                            width: 300px;
+                        }
+                    }
+
+                    .informacion_moda{
+                        height: 80px;
+                        width: 100%;
+
+                        h1{
+                            font-family: sans-serif;
+                            font-size: 1.2em;
+                            text-align: center;
+                            color: #333;
+                            margin-bottom: -10px;
+                        }
+
+                        p{
+                            text-align: center;
+                            font-family: sans-serif;
+                            font-size: .9em;
+                            color: #555;
+                        }
+                    }
+
+                    .precio_moda {
+                        height:50px;
+                        width: 85%;
+                        margin: auto;
+                        font-family: sans-serif;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .precio1_moda{
+                            color: red;
+                             font-size: .8em;
+                         }
+                         
+                         .precio_moda .precio2_moda{
+                             font-size: 1.5em;
+                         }
+                    }
+                }
+            }
+        }
+    }
+}

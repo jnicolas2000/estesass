@@ -1,0 +1,38 @@
+/* carrito */
+
+.navbarcarrito {
+    grid-area: navbar;
+}
+
+.headercarrito {
+    grid-area: header;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.maincarrito {
+    grid-area: main;
+    width: 100%;
+    margin-right: 600px;
+}
+
+.sidebarcarrito {
+    grid-area: sidebar;
+}
+
+.footercarrito {
+    grid-area: footer;
+}
+
+body {
+    .grid-container-carrito {
+        display: grid;
+        gap: 20px;
+        grid-template-areas: 
+            "navbar"
+            "header"
+            "main"
+            "footer"
+        ;
+    }
+}

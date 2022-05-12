@@ -1,0 +1,53 @@
+body {
+    .perfil {
+        width: 100%;
+        background: url(./imagenes/Moda-sostenible-es-moda-circular-gabrielfariasiribarren.com_.jpg);
+        background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+        background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+        color: #000000;
+        font-family: 'Manjari', sans-serif;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    }
+
+    .headerperfil {
+        grid-area: header;
+        background-color: antiquewhite;
+        font-size: small;
+
+        #perfil_menuprincipal {
+            padding-top: 7%;
+            background-color: antiquewhite;
+
+            .nav-link {
+                color: black;
+            }
+        }
+      
+    }
+    
+    
+    .mainperfil {
+        grid-area: main;
+        background-color: red;
+        background-color: white;
+
+        .row {
+            background: white;
+        }
+        
+        .img_perfil {
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+    }
+    
+    
+    .footerperfil {
+        grid-area: footer;
+        background-color: yellow;
+    }
+}

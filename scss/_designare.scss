@@ -1,0 +1,75 @@
+/* Designare */
+
+.articlepruebaindex {
+    grid-area: article;
+  
+    .imagen_main2 {
+        .textos_pruebaindex {
+            height: 100%;
+            color: white;
+            display: flex;
+            justify-content: start;
+            padding-bottom: 10%;
+        }
+    }
+}
+
+.footerpruebaindex {
+    p {
+        background-color: red;
+    }
+}
+
+.mainpruebaindex {
+    grid-area: main;
+
+    .contenedor_index {
+        width: 100%;
+      
+        margin: auto;
+        padding: 48px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .imagen_main2_index {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+        .textos_index {
+            padding: 100px;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-bottom: 180px;
+            font-weight: bold;
+            font-size: x-large;
+            color: white;
+            }
+    }
+}
+
+#perfil_menuprincipal {
+    padding-top: 7%;
+    background-color: antiquewhite;
+
+    .nav-link {
+        color: black;
+    }
+}
+
+body {
+    .perfil {
+        width: 100%;
+        background: url(./imagenes/Moda-sostenible-es-moda-circular-gabrielfariasiribarren.com_.jpg);
+        background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
+        background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+        color: #000000;
+        font-family: 'Manjari', sans-serif;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    }
+}
